@@ -24,247 +24,147 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
     ""name"": ""PlayerInputActions"",
     ""maps"": [
         {
-            ""name"": ""Player Character"",
-            ""id"": ""3ecb5301-a10b-4c30-9184-048b122fb981"",
+            ""name"": ""Player"",
+            ""id"": ""225cca41-81dc-40a4-9234-716e2a1e8a10"",
             ""actions"": [
                 {
-                    ""name"": ""Fire"",
-                    ""type"": ""Button"",
-                    ""id"": ""d360c425-57ba-4267-9538-a8d98379860a"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""8c9b53e4-fc0f-4bb9-a163-77adb5a28307"",
-                    ""path"": ""<Keyboard>/space"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Fire"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
-                    ""id"": ""90ce1e35-8234-4517-9c5f-df6266406897"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Fire"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""Vehicle"",
-            ""id"": ""b53a3bc3-6730-4642-af27-f8b8ff2f8cfd"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""24466b05-ff2a-42b9-ba88-ad436633b518"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""93490813-47bb-4830-a443-ba27fe174380"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""Tank"",
-            ""id"": ""6bd78687-9092-47ed-935e-72b046e1b474"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""7d0e6432-bc5c-4a6a-9012-f6480619f06e"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""eb8b34e4-b666-4785-acbf-f27e615a7cfd"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""Airplane"",
-            ""id"": ""23c92d82-7800-40e3-8cd9-a04b4315f948"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""33863033-0fba-427e-b72a-da0ef7c26aa4"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""720be751-a34a-434a-8be2-13cbcec185d5"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""Helicoptor"",
-            ""id"": ""c89487b4-15ba-4c4d-978f-2be6777c5b59"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""79a7cae2-0be5-4fed-b868-f1b229c5cb3a"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""0b8faab4-8d94-4823-a6a4-c1d7a79fc08a"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""UI Menus"",
-            ""id"": ""2f2e0475-312f-4038-8844-2ceff63fba12"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""19e331ea-6170-49fc-a26c-712c9d01ec1d"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""121e8e35-df29-4d53-bc96-0dbc16027837"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""UI Map"",
-            ""id"": ""53bbfe07-96b7-4238-a011-45d4d5a17280"",
-            ""actions"": [
-                {
-                    ""name"": ""New action"",
-                    ""type"": ""Button"",
-                    ""id"": ""63c6fad8-b97f-42df-84f8-26b9a435499c"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                }
-            ],
-            ""bindings"": [
-                {
-                    ""name"": """",
-                    ""id"": ""4a13695b-3a80-40a1-8728-b42796bce780"",
-                    ""path"": """",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""New action"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                }
-            ]
-        },
-        {
-            ""name"": ""Dog"",
-            ""id"": ""87ee5683-58f8-48a5-9b38-d89704ef3f37"",
-            ""actions"": [
-                {
-                    ""name"": ""Bark"",
-                    ""type"": ""Button"",
-                    ""id"": ""68de0b31-979e-43a7-900a-aec617b238b8"",
-                    ""expectedControlType"": ""Button"",
-                    ""processors"": """",
-                    ""interactions"": """",
-                    ""initialStateCheck"": false
-                },
-                {
-                    ""name"": ""Walk"",
+                    ""name"": ""Movement"",
                     ""type"": ""Value"",
-                    ""id"": ""ddb477e8-966e-48be-8832-cbb8972f96d4"",
+                    ""id"": ""d2c5c41d-65c8-4310-a262-83eb4dc0e635"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Run"",
+                    ""name"": ""Rotation"",
                     ""type"": ""Button"",
-                    ""id"": ""ca7d66ac-417c-412b-85d0-351bf4e997ae"",
+                    ""id"": ""802bea61-071f-4d85-a58c-eec7a967a56c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Die"",
+                    ""name"": ""VehicleEntered"",
                     ""type"": ""Button"",
-                    ""id"": ""d6583be5-a236-429e-a627-fa8bb09554c3"",
+                    ""id"": ""078d5fc4-a34e-4294-87c9-c8eacaadfc74"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": ""2D Vector"",
+                    ""id"": ""ed676783-3ec5-42ba-a66b-4ebb03df049e"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""cfec3e85-754f-4743-b042-88b4ae5197de"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""6552b8b3-8094-49df-acd0-dab0f8c2fd63"",
+                    ""path"": ""<Keyboard>/s"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""6922094b-375e-4cc4-9118-e86de8a2af2d"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""e89211f3-c887-4288-bcc0-46cb46668d24"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Movement"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""3c0040ff-cc6d-4cd3-b1f7-fbcc1ead4089"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""87c9c92b-ad62-4044-a939-cee12a779c7b"",
+                    ""path"": ""<Keyboard>/a"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""b5ef156b-54ff-44d3-8bb8-ad468b8e2c6a"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""c1429102-b316-4ff4-a137-0aead4b245b5"",
+                    ""path"": ""<Keyboard>/t"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""VehicleEntered"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""RandomColor"",
+            ""id"": ""09f45acc-26fc-4ecf-8df4-72fa7f31cc42"",
+            ""actions"": [
+                {
+                    ""name"": ""AssignRandomColor"",
+                    ""type"": ""Button"",
+                    ""id"": ""280553bc-ccac-494d-868a-fa002773df05"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -274,157 +174,165 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""2874b932-0312-494f-b3b2-1cef7403c706"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""id"": ""49c89e99-7757-41f2-aeea-18dacb45dc9b"",
+                    ""path"": ""<Keyboard>/g"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Bark"",
+                    ""action"": ""AssignRandomColor"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
+                }
+            ]
+        },
+        {
+            ""name"": ""Driving"",
+            ""id"": ""ea8a78f7-9de7-439d-844e-bb2ba047fc5b"",
+            ""actions"": [
                 {
-                    ""name"": """",
-                    ""id"": ""05960d76-7904-46aa-a9ef-e0dcbc5d7a47"",
-                    ""path"": """",
-                    ""interactions"": """",
+                    ""name"": ""Movement"",
+                    ""type"": ""Value"",
+                    ""id"": ""bb7d1c39-68c6-48d7-a614-13c29bcfd73b"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Walk"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                }
+            ],
+            ""bindings"": [
                 {
                     ""name"": ""2D Vector"",
-                    ""id"": ""36f114a3-1da3-4f4b-a9b7-546cfed92b86"",
+                    ""id"": ""79b7b541-0069-4e59-b609-378e8dc65ee7"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Movement"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""3d33b719-8a26-456d-8d78-d3e17945a832"",
+                    ""id"": ""3180bc5b-41bb-4909-9e30-6a693c4e6aa0"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""1d3b83b8-d97b-4feb-b4a2-f842f41cc9b9"",
+                    ""id"": ""2574148c-b7ed-4dc6-94ff-0d8e54d276fa"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""1a0e6a2a-3ad2-485b-95dd-497518931c32"",
+                    ""id"": ""694f949d-0526-4a62-86a3-584cef3a1321"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""b8dab245-033b-4aba-a0d7-ad51c281602b"",
+                    ""id"": ""2ea9351f-b37e-4412-85cd-f4bc42910d71"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Walk"",
+                    ""action"": ""Movement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
-                },
+                }
+            ]
+        },
+        {
+            ""name"": ""BouncyBall"",
+            ""id"": ""72c8858a-9a7a-4fa8-a1a8-7a232fc295dd"",
+            ""actions"": [
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""bf21044e-77da-4069-a28d-dec83f9d88dd"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold(duration=1),Tap(duration=0.9)"",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""1b374b3e-7daa-4944-97c9-b596302496e0"",
-                    ""path"": ""<Keyboard>/leftShift"",
-                    ""interactions"": ""Hold"",
+                    ""id"": ""0a7e3aad-70ab-483f-86a2-db2a5aeca4b8"",
+                    ""path"": ""<Keyboard>/alt"",
+                    ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Run"",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
+                }
+            ]
+        },
+        {
+            ""name"": ""Slider"",
+            ""id"": ""09739a3b-6f1e-4686-804c-e92c109ad660"",
+            ""actions"": [
                 {
-                    ""name"": ""One Modifier"",
-                    ""id"": ""a95e62fe-7b3b-4757-9ef4-d50c2fa29266"",
-                    ""path"": ""OneModifier"",
+                    ""name"": ""FillBar"",
+                    ""type"": ""Button"",
+                    ""id"": ""96d29ccb-aace-4521-9efb-4d140a895a93"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                }
+            ],
+            ""bindings"": [
+                {
+                    ""name"": """",
+                    ""id"": ""b5dc616d-0dfe-4023-8aa3-d4d3c8573c6f"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Die"",
-                    ""isComposite"": true,
+                    ""action"": ""FillBar"",
+                    ""isComposite"": false,
                     ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": ""modifier"",
-                    ""id"": ""9bb3d19e-b2b1-417a-89a6-da7f2ea8786c"",
-                    ""path"": ""<Keyboard>/#(F)"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Die"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""binding"",
-                    ""id"": ""c1828399-5da3-40b9-8af2-59f39380569c"",
-                    ""path"": ""<Keyboard>/d"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Die"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
                 }
             ]
         }
     ],
     ""controlSchemes"": []
 }");
-        // Player Character
-        m_PlayerCharacter = asset.FindActionMap("Player Character", throwIfNotFound: true);
-        m_PlayerCharacter_Fire = m_PlayerCharacter.FindAction("Fire", throwIfNotFound: true);
-        // Vehicle
-        m_Vehicle = asset.FindActionMap("Vehicle", throwIfNotFound: true);
-        m_Vehicle_Newaction = m_Vehicle.FindAction("New action", throwIfNotFound: true);
-        // Tank
-        m_Tank = asset.FindActionMap("Tank", throwIfNotFound: true);
-        m_Tank_Newaction = m_Tank.FindAction("New action", throwIfNotFound: true);
-        // Airplane
-        m_Airplane = asset.FindActionMap("Airplane", throwIfNotFound: true);
-        m_Airplane_Newaction = m_Airplane.FindAction("New action", throwIfNotFound: true);
-        // Helicoptor
-        m_Helicoptor = asset.FindActionMap("Helicoptor", throwIfNotFound: true);
-        m_Helicoptor_Newaction = m_Helicoptor.FindAction("New action", throwIfNotFound: true);
-        // UI Menus
-        m_UIMenus = asset.FindActionMap("UI Menus", throwIfNotFound: true);
-        m_UIMenus_Newaction = m_UIMenus.FindAction("New action", throwIfNotFound: true);
-        // UI Map
-        m_UIMap = asset.FindActionMap("UI Map", throwIfNotFound: true);
-        m_UIMap_Newaction = m_UIMap.FindAction("New action", throwIfNotFound: true);
-        // Dog
-        m_Dog = asset.FindActionMap("Dog", throwIfNotFound: true);
-        m_Dog_Bark = m_Dog.FindAction("Bark", throwIfNotFound: true);
-        m_Dog_Walk = m_Dog.FindAction("Walk", throwIfNotFound: true);
-        m_Dog_Run = m_Dog.FindAction("Run", throwIfNotFound: true);
-        m_Dog_Die = m_Dog.FindAction("Die", throwIfNotFound: true);
+        // Player
+        m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
+        m_Player_Movement = m_Player.FindAction("Movement", throwIfNotFound: true);
+        m_Player_Rotation = m_Player.FindAction("Rotation", throwIfNotFound: true);
+        m_Player_VehicleEntered = m_Player.FindAction("VehicleEntered", throwIfNotFound: true);
+        // RandomColor
+        m_RandomColor = asset.FindActionMap("RandomColor", throwIfNotFound: true);
+        m_RandomColor_AssignRandomColor = m_RandomColor.FindAction("AssignRandomColor", throwIfNotFound: true);
+        // Driving
+        m_Driving = asset.FindActionMap("Driving", throwIfNotFound: true);
+        m_Driving_Movement = m_Driving.FindAction("Movement", throwIfNotFound: true);
+        // BouncyBall
+        m_BouncyBall = asset.FindActionMap("BouncyBall", throwIfNotFound: true);
+        m_BouncyBall_Jump = m_BouncyBall.FindAction("Jump", throwIfNotFound: true);
+        // Slider
+        m_Slider = asset.FindActionMap("Slider", throwIfNotFound: true);
+        m_Slider_FillBar = m_Slider.FindAction("FillBar", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -481,326 +389,206 @@ public partial class @PlayerInputActions : IInputActionCollection2, IDisposable
         return asset.FindBinding(bindingMask, out action);
     }
 
-    // Player Character
-    private readonly InputActionMap m_PlayerCharacter;
-    private IPlayerCharacterActions m_PlayerCharacterActionsCallbackInterface;
-    private readonly InputAction m_PlayerCharacter_Fire;
-    public struct PlayerCharacterActions
+    // Player
+    private readonly InputActionMap m_Player;
+    private IPlayerActions m_PlayerActionsCallbackInterface;
+    private readonly InputAction m_Player_Movement;
+    private readonly InputAction m_Player_Rotation;
+    private readonly InputAction m_Player_VehicleEntered;
+    public struct PlayerActions
     {
         private @PlayerInputActions m_Wrapper;
-        public PlayerCharacterActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Fire => m_Wrapper.m_PlayerCharacter_Fire;
-        public InputActionMap Get() { return m_Wrapper.m_PlayerCharacter; }
+        public PlayerActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movement => m_Wrapper.m_Player_Movement;
+        public InputAction @Rotation => m_Wrapper.m_Player_Rotation;
+        public InputAction @VehicleEntered => m_Wrapper.m_Player_VehicleEntered;
+        public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(PlayerCharacterActions set) { return set.Get(); }
-        public void SetCallbacks(IPlayerCharacterActions instance)
+        public static implicit operator InputActionMap(PlayerActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerActions instance)
         {
-            if (m_Wrapper.m_PlayerCharacterActionsCallbackInterface != null)
+            if (m_Wrapper.m_PlayerActionsCallbackInterface != null)
             {
-                @Fire.started -= m_Wrapper.m_PlayerCharacterActionsCallbackInterface.OnFire;
-                @Fire.performed -= m_Wrapper.m_PlayerCharacterActionsCallbackInterface.OnFire;
-                @Fire.canceled -= m_Wrapper.m_PlayerCharacterActionsCallbackInterface.OnFire;
+                @Movement.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnMovement;
+                @Rotation.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRotation;
+                @Rotation.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRotation;
+                @Rotation.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRotation;
+                @VehicleEntered.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnVehicleEntered;
+                @VehicleEntered.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnVehicleEntered;
+                @VehicleEntered.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnVehicleEntered;
             }
-            m_Wrapper.m_PlayerCharacterActionsCallbackInterface = instance;
+            m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Fire.started += instance.OnFire;
-                @Fire.performed += instance.OnFire;
-                @Fire.canceled += instance.OnFire;
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
+                @Rotation.started += instance.OnRotation;
+                @Rotation.performed += instance.OnRotation;
+                @Rotation.canceled += instance.OnRotation;
+                @VehicleEntered.started += instance.OnVehicleEntered;
+                @VehicleEntered.performed += instance.OnVehicleEntered;
+                @VehicleEntered.canceled += instance.OnVehicleEntered;
             }
         }
     }
-    public PlayerCharacterActions @PlayerCharacter => new PlayerCharacterActions(this);
+    public PlayerActions @Player => new PlayerActions(this);
 
-    // Vehicle
-    private readonly InputActionMap m_Vehicle;
-    private IVehicleActions m_VehicleActionsCallbackInterface;
-    private readonly InputAction m_Vehicle_Newaction;
-    public struct VehicleActions
+    // RandomColor
+    private readonly InputActionMap m_RandomColor;
+    private IRandomColorActions m_RandomColorActionsCallbackInterface;
+    private readonly InputAction m_RandomColor_AssignRandomColor;
+    public struct RandomColorActions
     {
         private @PlayerInputActions m_Wrapper;
-        public VehicleActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Vehicle_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Vehicle; }
+        public RandomColorActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @AssignRandomColor => m_Wrapper.m_RandomColor_AssignRandomColor;
+        public InputActionMap Get() { return m_Wrapper.m_RandomColor; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(VehicleActions set) { return set.Get(); }
-        public void SetCallbacks(IVehicleActions instance)
+        public static implicit operator InputActionMap(RandomColorActions set) { return set.Get(); }
+        public void SetCallbacks(IRandomColorActions instance)
         {
-            if (m_Wrapper.m_VehicleActionsCallbackInterface != null)
+            if (m_Wrapper.m_RandomColorActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_VehicleActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_VehicleActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_VehicleActionsCallbackInterface.OnNewaction;
+                @AssignRandomColor.started -= m_Wrapper.m_RandomColorActionsCallbackInterface.OnAssignRandomColor;
+                @AssignRandomColor.performed -= m_Wrapper.m_RandomColorActionsCallbackInterface.OnAssignRandomColor;
+                @AssignRandomColor.canceled -= m_Wrapper.m_RandomColorActionsCallbackInterface.OnAssignRandomColor;
             }
-            m_Wrapper.m_VehicleActionsCallbackInterface = instance;
+            m_Wrapper.m_RandomColorActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @AssignRandomColor.started += instance.OnAssignRandomColor;
+                @AssignRandomColor.performed += instance.OnAssignRandomColor;
+                @AssignRandomColor.canceled += instance.OnAssignRandomColor;
             }
         }
     }
-    public VehicleActions @Vehicle => new VehicleActions(this);
+    public RandomColorActions @RandomColor => new RandomColorActions(this);
 
-    // Tank
-    private readonly InputActionMap m_Tank;
-    private ITankActions m_TankActionsCallbackInterface;
-    private readonly InputAction m_Tank_Newaction;
-    public struct TankActions
+    // Driving
+    private readonly InputActionMap m_Driving;
+    private IDrivingActions m_DrivingActionsCallbackInterface;
+    private readonly InputAction m_Driving_Movement;
+    public struct DrivingActions
     {
         private @PlayerInputActions m_Wrapper;
-        public TankActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Tank_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Tank; }
+        public DrivingActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movement => m_Wrapper.m_Driving_Movement;
+        public InputActionMap Get() { return m_Wrapper.m_Driving; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(TankActions set) { return set.Get(); }
-        public void SetCallbacks(ITankActions instance)
+        public static implicit operator InputActionMap(DrivingActions set) { return set.Get(); }
+        public void SetCallbacks(IDrivingActions instance)
         {
-            if (m_Wrapper.m_TankActionsCallbackInterface != null)
+            if (m_Wrapper.m_DrivingActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_TankActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_TankActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_TankActionsCallbackInterface.OnNewaction;
+                @Movement.started -= m_Wrapper.m_DrivingActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_DrivingActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_DrivingActionsCallbackInterface.OnMovement;
             }
-            m_Wrapper.m_TankActionsCallbackInterface = instance;
+            m_Wrapper.m_DrivingActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
             }
         }
     }
-    public TankActions @Tank => new TankActions(this);
+    public DrivingActions @Driving => new DrivingActions(this);
 
-    // Airplane
-    private readonly InputActionMap m_Airplane;
-    private IAirplaneActions m_AirplaneActionsCallbackInterface;
-    private readonly InputAction m_Airplane_Newaction;
-    public struct AirplaneActions
+    // BouncyBall
+    private readonly InputActionMap m_BouncyBall;
+    private IBouncyBallActions m_BouncyBallActionsCallbackInterface;
+    private readonly InputAction m_BouncyBall_Jump;
+    public struct BouncyBallActions
     {
         private @PlayerInputActions m_Wrapper;
-        public AirplaneActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Airplane_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Airplane; }
+        public BouncyBallActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Jump => m_Wrapper.m_BouncyBall_Jump;
+        public InputActionMap Get() { return m_Wrapper.m_BouncyBall; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(AirplaneActions set) { return set.Get(); }
-        public void SetCallbacks(IAirplaneActions instance)
+        public static implicit operator InputActionMap(BouncyBallActions set) { return set.Get(); }
+        public void SetCallbacks(IBouncyBallActions instance)
         {
-            if (m_Wrapper.m_AirplaneActionsCallbackInterface != null)
+            if (m_Wrapper.m_BouncyBallActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_AirplaneActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_AirplaneActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_AirplaneActionsCallbackInterface.OnNewaction;
+                @Jump.started -= m_Wrapper.m_BouncyBallActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_BouncyBallActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_BouncyBallActionsCallbackInterface.OnJump;
             }
-            m_Wrapper.m_AirplaneActionsCallbackInterface = instance;
+            m_Wrapper.m_BouncyBallActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
         }
     }
-    public AirplaneActions @Airplane => new AirplaneActions(this);
+    public BouncyBallActions @BouncyBall => new BouncyBallActions(this);
 
-    // Helicoptor
-    private readonly InputActionMap m_Helicoptor;
-    private IHelicoptorActions m_HelicoptorActionsCallbackInterface;
-    private readonly InputAction m_Helicoptor_Newaction;
-    public struct HelicoptorActions
+    // Slider
+    private readonly InputActionMap m_Slider;
+    private ISliderActions m_SliderActionsCallbackInterface;
+    private readonly InputAction m_Slider_FillBar;
+    public struct SliderActions
     {
         private @PlayerInputActions m_Wrapper;
-        public HelicoptorActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Helicoptor_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_Helicoptor; }
+        public SliderActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
+        public InputAction @FillBar => m_Wrapper.m_Slider_FillBar;
+        public InputActionMap Get() { return m_Wrapper.m_Slider; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(HelicoptorActions set) { return set.Get(); }
-        public void SetCallbacks(IHelicoptorActions instance)
+        public static implicit operator InputActionMap(SliderActions set) { return set.Get(); }
+        public void SetCallbacks(ISliderActions instance)
         {
-            if (m_Wrapper.m_HelicoptorActionsCallbackInterface != null)
+            if (m_Wrapper.m_SliderActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_HelicoptorActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_HelicoptorActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_HelicoptorActionsCallbackInterface.OnNewaction;
+                @FillBar.started -= m_Wrapper.m_SliderActionsCallbackInterface.OnFillBar;
+                @FillBar.performed -= m_Wrapper.m_SliderActionsCallbackInterface.OnFillBar;
+                @FillBar.canceled -= m_Wrapper.m_SliderActionsCallbackInterface.OnFillBar;
             }
-            m_Wrapper.m_HelicoptorActionsCallbackInterface = instance;
+            m_Wrapper.m_SliderActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @FillBar.started += instance.OnFillBar;
+                @FillBar.performed += instance.OnFillBar;
+                @FillBar.canceled += instance.OnFillBar;
             }
         }
     }
-    public HelicoptorActions @Helicoptor => new HelicoptorActions(this);
-
-    // UI Menus
-    private readonly InputActionMap m_UIMenus;
-    private IUIMenusActions m_UIMenusActionsCallbackInterface;
-    private readonly InputAction m_UIMenus_Newaction;
-    public struct UIMenusActions
+    public SliderActions @Slider => new SliderActions(this);
+    public interface IPlayerActions
     {
-        private @PlayerInputActions m_Wrapper;
-        public UIMenusActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_UIMenus_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_UIMenus; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(UIMenusActions set) { return set.Get(); }
-        public void SetCallbacks(IUIMenusActions instance)
-        {
-            if (m_Wrapper.m_UIMenusActionsCallbackInterface != null)
-            {
-                @Newaction.started -= m_Wrapper.m_UIMenusActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_UIMenusActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_UIMenusActionsCallbackInterface.OnNewaction;
-            }
-            m_Wrapper.m_UIMenusActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
-            }
-        }
+        void OnMovement(InputAction.CallbackContext context);
+        void OnRotation(InputAction.CallbackContext context);
+        void OnVehicleEntered(InputAction.CallbackContext context);
     }
-    public UIMenusActions @UIMenus => new UIMenusActions(this);
-
-    // UI Map
-    private readonly InputActionMap m_UIMap;
-    private IUIMapActions m_UIMapActionsCallbackInterface;
-    private readonly InputAction m_UIMap_Newaction;
-    public struct UIMapActions
+    public interface IRandomColorActions
     {
-        private @PlayerInputActions m_Wrapper;
-        public UIMapActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_UIMap_Newaction;
-        public InputActionMap Get() { return m_Wrapper.m_UIMap; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(UIMapActions set) { return set.Get(); }
-        public void SetCallbacks(IUIMapActions instance)
-        {
-            if (m_Wrapper.m_UIMapActionsCallbackInterface != null)
-            {
-                @Newaction.started -= m_Wrapper.m_UIMapActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_UIMapActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_UIMapActionsCallbackInterface.OnNewaction;
-            }
-            m_Wrapper.m_UIMapActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
-            }
-        }
+        void OnAssignRandomColor(InputAction.CallbackContext context);
     }
-    public UIMapActions @UIMap => new UIMapActions(this);
-
-    // Dog
-    private readonly InputActionMap m_Dog;
-    private IDogActions m_DogActionsCallbackInterface;
-    private readonly InputAction m_Dog_Bark;
-    private readonly InputAction m_Dog_Walk;
-    private readonly InputAction m_Dog_Run;
-    private readonly InputAction m_Dog_Die;
-    public struct DogActions
+    public interface IDrivingActions
     {
-        private @PlayerInputActions m_Wrapper;
-        public DogActions(@PlayerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Bark => m_Wrapper.m_Dog_Bark;
-        public InputAction @Walk => m_Wrapper.m_Dog_Walk;
-        public InputAction @Run => m_Wrapper.m_Dog_Run;
-        public InputAction @Die => m_Wrapper.m_Dog_Die;
-        public InputActionMap Get() { return m_Wrapper.m_Dog; }
-        public void Enable() { Get().Enable(); }
-        public void Disable() { Get().Disable(); }
-        public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(DogActions set) { return set.Get(); }
-        public void SetCallbacks(IDogActions instance)
-        {
-            if (m_Wrapper.m_DogActionsCallbackInterface != null)
-            {
-                @Bark.started -= m_Wrapper.m_DogActionsCallbackInterface.OnBark;
-                @Bark.performed -= m_Wrapper.m_DogActionsCallbackInterface.OnBark;
-                @Bark.canceled -= m_Wrapper.m_DogActionsCallbackInterface.OnBark;
-                @Walk.started -= m_Wrapper.m_DogActionsCallbackInterface.OnWalk;
-                @Walk.performed -= m_Wrapper.m_DogActionsCallbackInterface.OnWalk;
-                @Walk.canceled -= m_Wrapper.m_DogActionsCallbackInterface.OnWalk;
-                @Run.started -= m_Wrapper.m_DogActionsCallbackInterface.OnRun;
-                @Run.performed -= m_Wrapper.m_DogActionsCallbackInterface.OnRun;
-                @Run.canceled -= m_Wrapper.m_DogActionsCallbackInterface.OnRun;
-                @Die.started -= m_Wrapper.m_DogActionsCallbackInterface.OnDie;
-                @Die.performed -= m_Wrapper.m_DogActionsCallbackInterface.OnDie;
-                @Die.canceled -= m_Wrapper.m_DogActionsCallbackInterface.OnDie;
-            }
-            m_Wrapper.m_DogActionsCallbackInterface = instance;
-            if (instance != null)
-            {
-                @Bark.started += instance.OnBark;
-                @Bark.performed += instance.OnBark;
-                @Bark.canceled += instance.OnBark;
-                @Walk.started += instance.OnWalk;
-                @Walk.performed += instance.OnWalk;
-                @Walk.canceled += instance.OnWalk;
-                @Run.started += instance.OnRun;
-                @Run.performed += instance.OnRun;
-                @Run.canceled += instance.OnRun;
-                @Die.started += instance.OnDie;
-                @Die.performed += instance.OnDie;
-                @Die.canceled += instance.OnDie;
-            }
-        }
+        void OnMovement(InputAction.CallbackContext context);
     }
-    public DogActions @Dog => new DogActions(this);
-    public interface IPlayerCharacterActions
+    public interface IBouncyBallActions
     {
-        void OnFire(InputAction.CallbackContext context);
+        void OnJump(InputAction.CallbackContext context);
     }
-    public interface IVehicleActions
+    public interface ISliderActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface ITankActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface IAirplaneActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface IHelicoptorActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface IUIMenusActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface IUIMapActions
-    {
-        void OnNewaction(InputAction.CallbackContext context);
-    }
-    public interface IDogActions
-    {
-        void OnBark(InputAction.CallbackContext context);
-        void OnWalk(InputAction.CallbackContext context);
-        void OnRun(InputAction.CallbackContext context);
-        void OnDie(InputAction.CallbackContext context);
+        void OnFillBar(InputAction.CallbackContext context);
     }
 }
